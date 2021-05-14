@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+body {
+    width  : 100vw;
+    height : 100vh;
+    padding: 0px;
+    margin : 0px;
+    animation: mymove 5s infinite;
+    overflow:hidden;
+}
+
+@keyframes mymove {
+    0% {background:  #00e600;}
+    10% {background: aqua;}
+    20% {background: yellow;}
+    /*30% {background: #ffd4a8}*/
+    40% {background: #e60000}
+    50% {background: green;}
+    60% {background: #003ae6}
+    70% {background: #e600ad}
+    /*80% {background: #6f5ef5}*/
+    90% {background: #e65c00}
+    100% {background:rgb(209, 160, 160);}
+
+  }
+
+#textoAqui {
+    width           : 100vw;
+    height          : 100vh;
+    
+}
+
+#contador {
+    padding: 20px;
+    
+}
+
+.minhasfontesAnton {
+font-family: 'Anton', sans-serif;
+}
+
+.minhafonteAntonio {
+    font-family: 'Antonio', sans-serif;
+}
+.minhafonteFreckle {
+family: 'Freckle Face', cursive;
+}
+.minhafonteJomhuria {
+font-family: 'Jomhuria', cursive;
+}
+.minhafonteLuckiest {
+font-family: 'Luckiest Guy', cursive;
+}
+.minhafonteNew {
+font-family: 'New Tegomin', serif;
+}
+.minhafonteOpen {
+font-family: 'Open Sans', sans-serif;
+}
+.minhafonteOrelega {
+font-family: 'Orelega One', cursive;
+}
+.minhafonteReleway {
+font-family: 'Raleway', sans-serif;
+}
+.minhafonteUnlock {
+font-family: 'Unlock', cursive;
+}
